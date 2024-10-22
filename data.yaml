@@ -1,0 +1,13 @@
+train: /mnt/d/training_yolo/yolov5/dataset/test
+val: /mnt/d/training_yolo/yolov5/dataset/train
+test: /mnt/d/training_yolo/yolov5/dataset/valid
+
+nc: 2
+names: ['sitting_bad', 'sitting_good']
+
+roboflow:
+  workspace: training-z6ggx
+  project: products-detection-svplt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/training-z6ggx/products-detection-svplt/dataset/1
